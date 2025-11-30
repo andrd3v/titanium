@@ -34,8 +34,6 @@ PRs and improvements are welcome.
 
 ---
 
-> ⭐ If this repo gets enough stars, I’ll look into adding injection support for system daemons and apps.
-
 
 ## Credits
 
