@@ -127,7 +127,7 @@ static char *TitaniumExtractPreferredSlice(const char *fatPath) {
     self.processTableView.tableHeaderView = self.searchBar;
 
     self.title = @"Titanium";
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Dylib"
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Select .dylib (now default)"
                                                                               style:UIBarButtonItemStylePlain
                                                                              target:self
                                                                              action:@selector(selectDylibButtonTapped)];
