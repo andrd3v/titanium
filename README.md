@@ -24,3 +24,6 @@ PRs and improvements are welcome.
 - Various ideas inspired by the iOS jailbreak / TrollStore community.
 
 Upstream components retain their original licenses.
+
+## License
+See [LICENSE](LICENSE).
