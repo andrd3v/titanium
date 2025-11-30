@@ -40,9 +40,13 @@ PRs and improvements are welcome.
 - CoreTrust bypass and signing flow based on fastPathSign.
 - ROP‑based injection built around opainject.
 - Upstream components retain their original licenses.
-- Various ideas inspired by the iOS jailbreak / TrollStore community.<br><br>
+- Various ideas inspired by the iOS jailbreak / TrollStore community.
+- Special thanks to [ra1n](https://github.com/loxchmorez) for the idea of moving the dylib into the `Application` folder.
+<br><br>
 Also tagging this troublemaker because he insisted 😏 He cracks good jokes, so he’s here
 - [nkhmelni](https://github.com/nkhmelni)  
+
+https://github.com/loxchmorez
 
 ## License
 See [LICENSE](LICENSE).
