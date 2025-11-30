@@ -4,19 +4,6 @@
 <dict>
 	<key>com.apple.AXMediaUtilitiesService-access</key>
 	<true/>
-	<key>com.apple.Contacts.database-allow</key>
-	<true/>
-	<key>com.apple.private.tcc.allow</key>
-	<array>
-		<string>kTCCServiceAddressBook</string>
-		<string>kTCCServiceCalendar</string>
-		<string>kTCCServiceReminders</string>
-		<string>kTCCServicePhotos</string>
-		<string>kTCCServiceMediaLibrary</string>
-		<string>kTCCServiceMicrophone</string>
-		<string>kTCCServiceCamera</string>
-		<string>kTCCServiceWillow</string>
-	</array>
 	<key>com.apple.DragUI.accessibility</key>
 	<true/>
 	<key>com.apple.QuartzCore.displayable-context</key>
@@ -185,6 +172,12 @@
 	<array>
 		<string>systemgroup.com.apple.powerlog</string>
 	</array>
+	<key>com.apple.private.security.container-required</key>
+	<false/>
+	<key>com.apple.system-task-ports.control</key>
+	<true/>
+	<key>com.apple.private.thread-set-state</key>
+	<true/>
 	<key>com.apple.siri.VoiceShortcuts.xpc</key>
 	<true/>
 	<key>com.apple.siri.activation.service</key>

@@ -140,11 +140,10 @@ void StartRootHelper(int argc, char *argv[])
 
         NSString *teamID = get_team_identifier_NSString(execPath);
         if (teamID.length == 0) {
-            NSLog(@"[RootHelper][andrdevv] Failed to get TeamID for %@, aborting", execPath);
-            return;
+            NSLog(@"[RootHelper][andrdevv] No TeamID for %@, proceeding without TeamID", execPath);
+        } else {
+            NSLog(@"[RootHelper][andrdevv] Resolved target execPath=%@, teamID=%@", execPath, teamID);
         }
-
-        NSLog(@"[RootHelper][andrdevv] Resolved target execPath=%@, teamID=%@", execPath, teamID);
 
         TitaniumRootViewController *vc = [TitaniumRootViewController new];
         BOOL ok = [vc signAlertDylibWithTeamID:teamID targetProcessName:targetProcessName];

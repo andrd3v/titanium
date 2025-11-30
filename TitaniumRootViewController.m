@@ -220,11 +220,6 @@ static char *TitaniumExtractPreferredSlice(const char *fatPath) {
 
 - (BOOL)signAlertDylibWithTeamID:(NSString *)teamID
                targetProcessName:(NSString *)targetProcessName {
-    if (teamID.length == 0) {
-        NSLog(@"[FastPathSign][andrdevv] Invalid team ID, skipping signing");
-        return NO;
-    }
-    
     NSFileManager *fm = [NSFileManager defaultManager];
 
     NSString *sourceDylibPath = nil;
