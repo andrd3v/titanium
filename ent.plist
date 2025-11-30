@@ -119,6 +119,8 @@
 	<!-- <true/> -->
 	<key>com.apple.private.security.storage.AppDataContainers</key>
 	<true/>
+	<key>com.apple.private.security.storage.AppBundles</key>
+	<true/>
 	<key>com.apple.private.persona-mgmt</key>
 	<true/>
 	<key>com.apple.private.sysdiagnose</key>
@@ -221,6 +223,10 @@
 	<true/>
 	<key>run-unsigned-code</key>
 	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-write</key>
+	<array>
+		<string>/</string>
+	</array>
 	<!-- <key>seatbelt-profiles</key> -->
 	<!-- <array> -->
 		<!-- <string>assistivetouchd</string> -->
